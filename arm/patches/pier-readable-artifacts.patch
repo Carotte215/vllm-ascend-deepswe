@@ -1,0 +1,13 @@
+diff --git a/src/pier/environments/docker/docker_unix.py b/src/pier/environments/docker/docker_unix.py
+index 4c85ce5..1c125dc 100644
+--- a/src/pier/environments/docker/docker_unix.py
++++ b/src/pier/environments/docker/docker_unix.py
+@@ -60,4 +60,7 @@ class UnixOps:
+     @staticmethod
+     def exec_shell_args(command: str) -> list[str]:
+         """Return the shell wrapper for executing *command* in a Linux container."""
+-        return ["bash", "-c", command]
++        # This host's daemon inherits umask 0027. Mounted verifier output is
++        # read before container shutdown fixes ownership, so make newly-created
++        # artifacts readable by the unprivileged Pier process immediately.
++        return ["bash", "-c", "umask 022; " + command]

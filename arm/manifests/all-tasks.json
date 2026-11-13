@@ -1,0 +1,2488 @@
+[
+  {
+    "task": "abs-module-cache-flags",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/abs-module-cache-flags:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "cffcaa70386408363b090b563943fd63fdcc322ed44b8c76cc3e56cfd76b7ed8",
+      "solution/solution.patch": "dbb0bc5ce090de7c6f1c172a620f400070714846e93b54943d981b7b496fc069",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "18ae10bb40d545220bc46690d2ab749911b5bb12bfba870e3679ab3750684014",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "1f14443b836ad75b66975d9c8b6e735f675250136661dfc0a370d018ba4a97f9",
+      "tests/test.sh": "dfecfd863824f3d9780fb1bdb13de5415d831a7c452a41f39202dd29e4454b81"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "abs-stepped-slices",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/abs-stepped-slices:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "0381637972fc77c6c27bbc9f999af79ce57e9fc78d9ac43cf1ced51c9f8ea3dd",
+      "solution/solution.patch": "3006ff58e945289a5defb1fb314ba3bcbb8a2c7df278f4678b760e53073fb82c",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "15ca12416a45068f4b0f235130bb3375d6e2251e8bd8a67bf40edd3a0c0fe80f",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "bf9eab2e681531d83c458e7ad45e4a2fecf622c0ccaee6a9581d32875c45ecc9",
+      "tests/test.sh": "35a161fde459979916c034055c4559cbf38ff742591175be97111a60bb617a19"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "actionlint-action-pinning-lint",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/actionlint-action-pinning-lint:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "02472c08b7de7ca4d7d709a3b53db835fe8bcc76a887a13c18dc5aba86bd37f9",
+      "solution/solution.patch": "e5be4578ca56f7a2e63c8fae53120ca15ed30b7718d097138e2eb30d81206ad4",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "003e2833f422b8c74af29572915c0c020466255dd5125ed33e8587e7ef60cf17",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "608be125ea90894b68b06e664229b6de7911403695132fc0ff794ceefa39a856",
+      "tests/test.sh": "ad32349418c97fe12a090d09ddb5c3880b1b992500c2f69275ef702b52c6e0e3"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "adaptix-name-mapping-aliases",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/adaptix-name-mapping-aliases:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "e8e4a39e65723ff56eb35bc9b9183fef4e09677159063abf8189f471cc1b2eac",
+      "solution/solution.patch": "d26e4f92c27e71a8107ffbac5ca40a5ba401429b5592c2818671371e37c933d8",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "ad871fc46f60c2a3f7cd3127321dfc259db434cda099cc0bf5e3637a3eb2eda5",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "e9ea26e7b29f431bbeff3aa7230f7b384f0fd3100b8de5ad00f56c42fab9281f",
+      "tests/test.sh": "66cf913bf92b41e0b675428e5a7b70caa8198059cb19dc2332be5309e495a4ad"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "aiomonitor-task-snapshots-diff",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/aiomonitor-task-snapshots-diff:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "40f3eeea527d09aba7e54b35aadc1bb5f70743d41a9f09094e5968ebdf8b79d7",
+      "solution/solution.patch": "d36d125646e79908df8328c9c6ce8d36192d20f1b0c8159e6bc87a07d446742f",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "69d3cbeb7cea0c75fb42351eec658f2721fe30de419436bec0ef02bec5e80ce7",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "bfc1b309c7ce5b2557b9ba8c0b3f11888a08571c8baabdf8ff6a145db5e09a63",
+      "tests/test.sh": "c55a19ff001be08d5ddb5bbe7b34cea03b6019cee1a680a79338f12a18811d21"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "anko-default-function-arguments",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/anko-default-function-arguments:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "72caeb802c4dc7b8cbd4d9ec61b467230383a923de4dd4cc300b9f1d99285f8f",
+      "solution/solution.patch": "a506c03793aaf066be36af0ff2a4a949450e52deee8db3496f333036e80e9316",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "d3c466ba8c75740c49bd3abe360f0b93d1810e529c1d76565339f17bb56252d4",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "5666585ad86381c2d1439f0628abdb20532dd380d614c8b957b1ca37e36b01ec",
+      "tests/test.sh": "6950b56a00ba6a197ab6b0a613af12ad39187ef201abc0aeb86045712ad2b0e9"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "anko-typed-variable-bindings",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/anko-typed-variable-bindings:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "96c0c7ad98237d6176034c8893d8bff164ec5fda45889e51780a65cf599ffcfe",
+      "solution/solution.patch": "ecd46559f072b3737590b1ab52112dafce787d5d5411f83dc7f8c16f340db880",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "0f11e7c3d5aec8fbfe3e431d246e1b7b8a0ebf2326d7feafa39f389e248ebe48",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "91aa103ce3d2a7978588a19aa33e6dbbb95f418fd5fc1e2d21bd40a376b5078a",
+      "tests/test.sh": "3c022205d73128934751dbddac8136f25e8fa6b436243557730742f5186dda01"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "arcane-drift-detection-baselines",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/arcane-drift-detection-baselines:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "ca4de99c747ee4897ecaef75bbfc1324e147bd701958f1beb2473c76521b70e2",
+      "solution/solution.patch": "c0e00c7a67ef63a2ce24b4c07e74fa6a54a4757fea83ba607b67a4492433ec97",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "79cf19c04e35927c5a1eaf2cafb8c3b4f482cc7b24812dc68b6e3fab67eed7d4",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "f4a5222a7c5a73c02df2f3d666d0adb2126c68df1ab0be0b03e1893348b7e081",
+      "tests/test.sh": "6e98e571e7d19b2a98e21436cc2af3b8584774006f227eaf7a1786bb7ef44f80"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "arktype-json-schema-refs-dependencies",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/arktype-json-schema-refs-dependencies:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "594fa84b95c92f69e949de2781107a3ff5b6131e889203fc4505f6f41a136ea3",
+      "solution/solution.patch": "dd724535e1d925335ee8e8b6ca2e9dc3e00de3733f907bf7b4822d996ab23ff8",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "62ba14ca9fcc3b85ace2f26b1b3df885a0cb7ccdb1607d834df582be1f5c4c46",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "2d79d38da986136779eeb69658b775fd380d32eb6ba27abac5d080714f47c92c",
+      "tests/test.sh": "a529f019da4dfac1ae46dca104599c4489a52b70d71889486267a91e9df450f9"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "awilix-async-container-initialization",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/awilix-async-container-initialization:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "340a292a209ce1ad90dc30ba47d0062f543805cf9e212bce662b0fb6bd5d3c66",
+      "solution/solution.patch": "7132cba436d0648a0ecc6d77078ffcf6bdae5a0d69b6cabaf52a9275ad6c2b48",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "f521bba2e5f1083b43903e3ddd2b06f9a1be7dbf8d7d888f3b80a373239a37cf",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "21387269b2484e1c89419bb04fda51bd60e220e4571bd1bbabe450fdb3c16e04",
+      "tests/test.sh": "5a0003161a27d9c944ebb3817053f338f614d157c4b52ad6f6957e4c5a40300f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "bandit-incremental-cache-control",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/bandit-incremental-cache-control:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "78a166bd4aca7057e98d11106812396f9aa695a80b57ce346aa8231af2cecb12",
+      "solution/solution.patch": "aeafee5c70464ffea3361ac4f0ae0ed6f8b798467293f76e7e4463ef36ca3219",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "2fcbdd24460e28b429b91baf0c63c1a7f85afcae134a90d1219af5148cbc6ebc",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "7944f3ebe21a8c506e754da2037b70bbf22fea3372e7da86fda9158f33a55c5c",
+      "tests/test.sh": "7d0e64a42deb1a10af17eee4c7a13546f8f04c9e2fdabcde623ffc41854c8145"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "bandit-interprocedural-taint-checks",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/bandit-interprocedural-taint-checks:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "d780c0ef58de282522a94650d7fd54eed4e24aec73affc55c90898e2f11ba3b2",
+      "solution/solution.patch": "0c50bbada00aff7e6bbc8db420d3d922eed4c83eba27f023f3cea6113ed38056",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "d7bf57cde123079ba241f2a605aa3d4cd61a80e6ef5a3d779fd0e687b3e4fd17",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "192f96e4106bb272e8b72924da5e286b536717514b830237faa09ba9fa8f2837",
+      "tests/test.sh": "3759d1d7adcb93ca69a61708a8315d0d193d87ad853980e4160edce8e72544ff"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "bandit-structured-nosec-directives",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/bandit-structured-nosec-directives:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "310eeb36b46c3aece39ab187817b87764f0a428affe5e8a1688e0c92f7b92f9d",
+      "solution/solution.patch": "b35e9ce831b69e3443ceda1a955d8d6d934e0915e15f20c754cbb2e7b8ed4514",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "0b614af60ffde18e0a7e91fe3c81af8a62eca7e05646b1044ab91b45f0913961",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "433d6b981ac0c768176e1d326daa1848c6cb8f4431d1bd6bdc78485b7d0ac30f",
+      "tests/test.sh": "de0e216c64b696e7e70a1c4d28b5cb47543586d265b582f622252a383879dbae"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "boa-hierarchical-evaluation-cancellation",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/boa-hierarchical-evaluation-cancellation:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "72e6aa910687e1fe0401b7d97183880ee143d60b5183cb554d554abe003cedec",
+      "solution/solution.patch": "58403c3511945c05cd4d3d4e739a284ab9418057c304d27742d04a66ec1c9da9",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "078a67abf9a790dcfd1c2bb9de140bee33b0405c353762eda275ae3c17a607a0",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "1c72b2542ed76a17eefcc2b623d4927d20f68e6d371c76b6e27210c65f00d07f",
+      "tests/test.sh": "1ed7e5e530c945362eb083f1a54563cba7673b01b2f837354fe0b956b258c20c"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "cattrs-partial-structuring-recovery",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/cattrs-partial-structuring-recovery:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "13eab1ccb6c77dafa95e7e815a35fc76033aaf271076012067c3502c0c11272c",
+      "solution/solution.patch": "6050a6735eee8de72939d81ead6274658915dc4512d5d2995280a9a9fdafb1b5",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "d32fbbb9320863afda4000a3b87efbe1a1eb36565c474fbc37eb400d6301d62c",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "50154d90fca5e57254affc3a5378082a6782cb4d7e27182a7860a5827b8afef9",
+      "tests/test.sh": "f17974eb262c2263c538fd31d62ff40597674ce4bc70084abad190885862e481"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "clack-async-autocomplete-options",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/clack-async-autocomplete-options:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "5792630a916783910328e8d7778dc9483ed949bf713a09d00d4b8f6d4bdb6bf3",
+      "solution/solution.patch": "b9072085c48eb62b3ec18073361dd40ccc30064fbadfb5779ca409dec8c405b8",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "68f5bdaa5ed70850c3e4f3e8f97328a86bac535f6cd325b9111207d1b0f86bed",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "bf6aaeaac58a1093d509332cd3f36562c6c8c61f41fa84178d87afcf50de9ab8",
+      "tests/test.sh": "121e16f34db26fc1799f8c28db93eb33228d3d54fcd997d13b4b85277d06e18f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "claude-code-by-agents-recursive-delegation",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/claude-code-by-agents-recursive-delegation:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "56818b3491a387c482911fe0a88859cb1b802e56a7087d51e0a77965fd68a59c",
+      "solution/solution.patch": "2e502354ec5a44ccd360e979dc11294a0b28db2e8d9f9df59d1c9f06bbd807d5",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "dcad2febfc7e522049640b207c452ddde41ca32a7b414f5fb37ee8590d1d2dff",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "55461bb04560e038ea9aebd02df39b3c94eda33ecba5b806f8b7bdcde0e27149",
+      "tests/test.sh": "a4c421e0ce5cdf1189f70c5001884304d3b5fcee0f2ee3722ebf036b50768ffa"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "cliffy-config-file-parsing",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/cliffy-config-file-parsing:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "39668d18670621b7760751128fc57ffbe519e3529601567ea9e11d31faaa2daf",
+      "solution/solution.patch": "46c97ddda487fc6f5aab3e2458b14fae99adc1e80e4a518d66ec74acb937d3b6",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "f1a3c7c5dc48fb089183f3605bd123c5761cfe315cf87817fec97de360e0db8e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "b26350181e80c7e9f9b0010a659474b571cd8da204cad3b1aa1bfcfeb76dd34f",
+      "tests/test.sh": "18eafe2b80661bdb11a8cc5091b1ae66f6c8c58b129dace402faa754d2bfbe94"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "csstree-shorthand-expansion-compression",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/csstree-shorthand-expansion-compression:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "fcf3984dab65cdb6fa5255587e5f09f75231da6c8e4840f47e25a4c0303afdb7",
+      "solution/solution.patch": "fb88c5c0bf02cb56731c8712c4b1a812f6da17babacb83a81ab4ddb6b56eb1ce",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "569c1c8e0db40506847f74bef946775a6f3cb777078513b6798dbb90b296d50a",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "8d7175cbea6420d5eb0511cbce41cdba865de1ea676a41aa31352e569fb4dd0a",
+      "tests/test.sh": "6e409ebeebde2c5739e7dec243c2ac70a3c9d26dd7540b4660ea972b50c534ab"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "dasel-html-document-format",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/dasel-html-document-format:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "53a67fd1336d4b281f47b37e809834369ebd9d1d2178c5da2c80fd1b0e4393f8",
+      "solution/solution.patch": "d8344b7eea4b00bc021013adbda6626169750fde9d2b1a6385c0af37890acad2",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "e7d759b64af0e0924645964ab28c3026a43e6f6cb2ee0a90de0ef7b5ac685840",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "bb1e42d866510f92b7c880bb580eff0fa14b072a7f176e85e2cc99dd4c248d40",
+      "tests/test.sh": "d01f75d8005e4acf291ddb2890b8b7a01491a39fc7f3afbd5ae11b4b0ce0d160"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "dateutil-rfc5545-timezone-interop",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/dateutil-rfc5545-timezone-interop:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "029feb3185f43a1ed77c0fa9e250c50e82758c78b7544f8905782c2dda9eb9b6",
+      "solution/solution.patch": "dc6c13f7e3e211513af50613e61baf1d24a2115d91b932af89e0781335940a2b",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "956f267962825dcb4c79567c7295264d67b35795371d86b6a5cccdff14535465",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "927af366a90b1e4eee529cf8d64b6c755a9abb0b6342196a8b307a2b5c74fade",
+      "tests/test.sh": "98d7b3311bd48f58be70827f3fcd5b4a45426a3ef1cebf45af41c5457fd6a004"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "drizzle-orm-window-function-builders",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/drizzle-orm-window-function-builders:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "72fc9abfb71ae51619dd571f8034beb55bfd8a86741c901560d3ff7a905032a8",
+      "solution/solution.patch": "f60687b47b545591ad8808e697c7037f72ee7296c65cf05c3e2cccb1304addfa",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "cb9ac3fe98b5fe94b6f3e319ce02db5a11cf305f2c8b776e8c262df3a99aa842",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "b8c9b81721d254efc4dcb494d9badc13c71f07668ea5d9985fc0fbca93cd42e8",
+      "tests/test.sh": "f11c254611433772ec2738a44e8787b1adf0f68e4beabaf3a0c02ef501a35883"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "dynamodb-toolbox-conditional-attribute-requirements",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/dynamodb-toolbox-conditional-attribute-requirements:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "b3f779ea7ac151568f0dad3838f9bcdeabff7e4fca45677b26c406fa442a7fc6",
+      "solution/solution.patch": "8957791082a4860d962f2dfc2a2282676799a60f4f567bc2c83fb13e3bf9fcec",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "55c1e802037762a4162153075814c0c2934cca1430e8773a0ca98f13543ccbab",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "8ce1dba15aba916565de041b0855e5b4e1fdc817d6ecb3999a4a3c8933cb7a03",
+      "tests/test.sh": "a3714559c87a393c397d934956be828f01de26490708a0370839faaba8d76fa7"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "dynamodb-toolbox-lazy-recursive-schemas",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/dynamodb-toolbox-lazy-recursive-schemas:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "531983ffe0ed3b3a6dbc84deb6004d6ece59daa54830c360649d4c52977b0c9c",
+      "solution/solution.patch": "3ead1a8f1671d7e2cea8be3538842f697a71c2fff74d5694e83d8af5dc356ee5",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "dcca0826ad4a22ef990cda849773d8db5d5f4be72265f94ecc0db9614aa55949",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "e0e217cfd598b8a5e2379bc5265f1c47baefa1c9e248933aafc8112fbf6aa613",
+      "tests/test.sh": "e162201a0d2d4614f9da3dc079cae5f2a66655c4e57756b97dc169be44e9abf2"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "effect-sse-httpapi-streaming",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/effect-sse-httpapi-streaming:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "b9fc8403f53c0aed7e53cf7c2ca3f5df4249de5af8ac5ffc1dfc8500d21ce205",
+      "solution/solution.patch": "38260088472ebcccefc84ae784dcefcf977beb3b403dd80b0d556a21a3b245c9",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "33fae1e60d48f5c17bb54ded984d00e590887f64799a5d47cd54735752724713",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "ce032707d6f1bfefb225d3b888dfac2991a50e4bcdcaa6cae0bef3f3518f5599",
+      "tests/test.sh": "1f32078a437f204badf3e77d61479a9051fe12a358070d4058595c6120c5f47d"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "eicrud-keyset-pagination-cursor",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/eicrud-keyset-pagination-cursor:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "7c2af7789aa9e8a722136303a6c97d0f44ee8f7732e4f63af93e57c041fdb821",
+      "solution/solution.patch": "5a8a630ce8f26bb30d19c252e21ccb556d58c4d58773a9013d9ed295156849ff",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "932b43448966a9fe7bda8eb695d203df1235ecac07bc2887b0692455f2739db8",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "add83b36122c513404055a43f09878d030c00e99d7519fed4195985154898fe8",
+      "tests/test.sh": "db2f4f484a09646586c7bec18848ad58e593f343942c2687c02adba79c92be88"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "etree-xml-diff-patch",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/etree-xml-diff-patch:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4f4d384d226a49687890fffedc17242d5261c7a214c7bf247e3e505331698130",
+      "solution/solution.patch": "010c309e24748c32335623f061e0c4571db428a77e7e427efbfa20254f94e8b1",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "bbe92b48c36a9cd3f868d95238c281e876f278c5262d793a01a9a3e2ad2d41d6",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "7cab6711718deca89a068e57146c28b490e77320144b413061fab2333b1f8c88",
+      "tests/test.sh": "ffb75d0fa4c759ded3186c1ec49c533db27ec34776a6ae829de5a4692337099a"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "expr-try-catch-errors",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/expr-try-catch-errors:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "6f19f8363f75963c69072f03aa7515ffa304d6b726f85b09188760ae682e3447",
+      "solution/solution.patch": "39d5fc1a453c6cbfc9e1b3e7a84cd75694dd0af32a30250c25723e0da5fa17f6",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "91d9f4547c567e798644c3ad80016ad2745db3184df82440e8b93b9b6d163fd6",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "4f3f19e8f52c0e10cf4fe194b7adbf84f59541576e2f557d0624ce9af5aa3eb7",
+      "tests/test.sh": "2340ff25d99a8ced4acdfd1fa5e11dca45990265b58c37744f0fd96afd3521af"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "fastapi-deprecation-response-headers",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/fastapi-deprecation-response-headers:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "b8e0cb43fe2850b2173c8b5e940d463345b96aed6a2b3e7c0c559deda468c568",
+      "solution/solution.patch": "e8b2366d562c6a9a026bdc0c352058437c55fc9b09bb8460b4303c6e632980ea",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "5efe6485b83827a1f6127ba54b36a6fbfc3f973ff352f953bf9115fb41df35d8",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "029972f1d78ec9c9e9e38f9abe4c3bcc9801b73a9e1aa83d4d1dfd2e79ecc35e",
+      "tests/test.sh": "48340b1ac95a07e08c6aff4f3ea4495d3e3265baba3262393316afe713504988"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "fastapi-implicit-head-options",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/fastapi-implicit-head-options:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "b55a492424e74cf6267a1bcf75c48942f397e9e9f00ac15e97809145794056d6",
+      "solution/solution.patch": "900aa8a64c48adeec77fdb94bbe6f5621c6ed1848e2c13e819cc76206a67708a",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "e107f42aef1cb942378748fefbc5abd73d3f04ddacdc6538b33683cd18688960",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "2b7fd7bd3b52f9cbe6f15ac564e7d76c7dadbfdb7deab83e02855f02fa56ad61",
+      "tests/test.sh": "39219607ca90e8fa563bcc733598fab4ce277c646ff25148d23c229e5bbdf38d"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "fd-deterministic-multi-key-sorting",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/fd-deterministic-multi-key-sorting:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c0f8b4310a2317da0f3222da839dc56a1580ed3d4fc493c2783ae418e6e2a657",
+      "solution/solution.patch": "3f178867b817d3a1ea8929578c8b8e9624fc62e5561049026df22d2a85d5ecea",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "b230517bac266c9f135daf0f2c1edfe2f03625210711efdabb59c1a6e09bb51f",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a2cad74364a51fc25fc4dfa9aac7edfaf18ba88aa8b0f51ea04e7152959cf2b6",
+      "tests/test.sh": "21d2943bf6cf9ec67600daa5bb9ecb7483bb69a8850e72e78b05451cf93a2cde"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "geo-shapeindex-serialization",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/geo-shapeindex-serialization:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "963f10993838f2f3f33935632d2b1181a1fa0b1174991a8b52ca8a66d40e5afd",
+      "solution/solution.patch": "e0de981bf8636f9a6ee20596f715f1c07708db358e90c8f7697cede4acb9b007",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "86251536c51deab078e271cb73e6e2702a68ec6723e0432c02d108f5087cb537",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "3b7c5fa6515e30264550c34bc44d89341595fbe42e02858cf60e8c32d27a8b59",
+      "tests/test.sh": "c511bcfecb33e338d41446aaed2d748c8adb7944877428784b51cb83a899a4bc"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "go-critic-doc-link-checker",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/go-critic-doc-link-checker:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "101d1e82dfbb0514de914d8be1912f99f74a3f9c450ea8816cf3443a7faf24fb",
+      "solution/solution.patch": "42043f390cc8e3e429d5e4ca7d39e66ef22abb33ee1492bffbd7be5eb370d6d1",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "cbe8ca67bbba86fd3a0f925b7d80d94a8b0f1e40ea6937a8a11bca6c630076ff",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "72b0856bd4b8ba3429955c94a16105fcb1a94a55a416dc6f8329eb47bcebd106",
+      "tests/test.sh": "57f1b844634b36b7951787eda1440438d6d70c7f795dc9798b4d26be0baba55c"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "go-genai-streamed-function-args",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/go-genai-streamed-function-args:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "a01fe3132affb9ec483885da4fd8574d3dd056cf7448a2a7cdc74e6486aed632",
+      "solution/solution.patch": "ac87a9590677b94906f85576b0a1390f3ce9c534658b17defbd8da14c0c28f8f",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "b32378ce48e5408b1d95f8ec0eaa3e7ddc7cf63d5fc6307ee0fb75fcb5cb7df3",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "dc0eae728d2fc8fb40d0524774ea1a6223906544e9c7efe9abf0cef2f35bb2ee",
+      "tests/test.sh": "2d72aefedcf8f032e0ac6f2b68c6dc71b0edc153469dbfddd063492b90da5c2f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "go-git-worktree-merge-conflicts",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/go-git-worktree-merge-conflicts:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4d6c197ad66c5d90b51f52d7db5f539fd164ce9b60e6c0d8bfa356f1f77cea7e",
+      "solution/solution.patch": "761f7dccda8f16302f06fb781738db6ebce3717444d99874940dd9afe87dff71",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "dbc43b094397ef9089b8a7f7fa796c40d339959e8b33d983f138f0282535e432",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "da79a6a7e63d63a2fd54b054d1956e5a8cbc83fbcd955a1cc2a31188b1dd3d7c",
+      "tests/test.sh": "fb303ec6756715ddd56011430db27e7c400bc8ca9dbf4cf09f42c73e9cb5784f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "goreleaser-retry-publish-auditing",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/goreleaser-retry-publish-auditing:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "b6474aa4d752c52c130bb2d4627ed5742caabb685570f689bc756fd8b8baa128",
+      "solution/solution.patch": "5380fecd5b8d26f8ef9ea75db3d967ad4ecb9c2229b8ae6a2502fd0c76b1c73d",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "6fee63cd3196470e20b4f47ddedf609f33a94e0b786ba80b7c1dc72149ce1bac",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "505bf02762e936740955aa7ac50f9538deb5cbf4649120389be03bebc7649ab5",
+      "tests/test.sh": "ffba2c3f49f643ac6d22011d16a72d63d2092c1b118eb4f382170b94c12d9477"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "gql-incremental-graphql-delivery",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/gql-incremental-graphql-delivery:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "0d14a5dac7fa2d6fe2e9d9d9a113fb02cfb2495f63f8b7edcaa18ba73dd16edf",
+      "solution/solution.patch": "65d77639c640cde71e5e867089b4bfd55140e9e7d418183c3cb9df570ade30db",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "c67e129b0d2f1510da79aa2af992ce65063f3d49392178bd7f4e7c183afdd4ed",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "031de3d902d74cdc8ef142886d5aca3342ff63611a3a903797f3e8d6fb413670",
+      "tests/test.sh": "44092634c1bde1fe11ff7c5cefbd29bc2aaca23d505169188f00bd4494df9820"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "happy-dom-abort-pending-body-reads",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/happy-dom-abort-pending-body-reads:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "b6359654736d87c782a090174d53f818b4a98dfe3edbdf45fe327d9dcb1fa4ac",
+      "solution/solution.patch": "e918f9851a9d3466f86a550f6cbb91d709224cb8439d7876f65ecb3f9a44078a",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "88ef140ea308fba8b44347a95c7720f2d4f5b237195b3427e812d0ab82c6127e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "ac3de2fd7659c284427cbae8502f551f5bceccf142a0deaadf2d65a9fea1cbdc",
+      "tests/test.sh": "9f29bb73c7b2b79095e0612416a77d64da13e75542c70df901e782ce68c6c2c0"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "happy-dom-deterministic-intersectionobserver",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/happy-dom-deterministic-intersectionobserver:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c294cb6d4e31f4c274fe79c373afa7d79ce36e9839739d7bac899fb6839ac368",
+      "solution/solution.patch": "a9f01b843006d21d3cec9befc8d09affa77e65fe79350277686774a53b79e0e1",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "49e86b1fe9c73f8ee26b2e11142a34cf56df6b7e20e45b21c471829a37ee16b3",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "4242f50b3d6c63ec8f7d71e961b6bcca3406d69cbe7db3cac4269ef90ee0157f",
+      "tests/test.sh": "7809908ad5607b4cda7f00921012eb7cc865aced5a8c2473b18d646fcf4100e5"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "helm-array-merge-strategies",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/helm-array-merge-strategies:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4d39c1963676acb1c1cdab6ac09d91fd5c321a77939b2db0cbbb666c911e47f6",
+      "solution/solution.patch": "49538ffcec69ce5b9f9ff3b64e6d8de4533bc804aa404e76eb7f81c3908a1f39",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "48862793ddf24d616f309dae91e8e54ac9c5b5b179c056d4b54ec8c71ddf76e6",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "64f4a75c0095cf563856f48bc90e6c0fd0a0d5144a51150fc605f9ca22aa26db",
+      "tests/test.sh": "93af2f55dc0fb621b5e89f5aab94bee89dbe149757e296482fa80cf91fc35f2d"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "helm-unified-manifest-stream",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/helm-unified-manifest-stream:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c69a568df4d740e1e4c6b1e8db40d9fcb3562fafc2f2c3422daf53181b808799",
+      "solution/solution.patch": "63a3e703fc415f428cd9aae1589ca0f94fa1a9b1c1aa43b261fdc6fec05cc1f2",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "ce08781f14b1c95a06396a0bfeeef6d0e507f2b8f183ba72fae0b5c179ab7308",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "5b686ef623b47fb1952a5b88f618634b5c70d4ab40458a18f40e2e6cd890cf1a",
+      "tests/test.sh": "2b319d982b0d02b59b2d02ec37e20740eafac295a68a40618e97bd957439fc54"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "httpx-deterministic-cookie-store",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/httpx-deterministic-cookie-store:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "97bd72180711c083997403fd5e88d7ebcca405360b06b93d5080cd2a6e625f22",
+      "solution/solution.patch": "36d91dabc2cee58323b104e0ce49eaf63202f3a8b840dd86595c6bd87265daed",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "7878b7c49f92222e1114759f85809023939e104fdeb7743708e72055dbae7549",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "aeb6ad57532b08b38229ea05fda43a81ae3bb8a7ae702bddfb031ef51afc0443",
+      "tests/test.sh": "937aed0e11cecfc1c91964a79f7278dfd6b2cc7d70e93f1ea3b4f1a7d0c4cddb"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "httpx-multipart-response-parsing",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/httpx-multipart-response-parsing:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "6a9c3400a23ad61f43c6e6f5b2dfbe8f5a5af81061cc063fd9440f327c5a0fb5",
+      "solution/solution.patch": "fbe0ab61b8e523a794fcbdf30a71a6d008ffd85285a7334b82278fe9ea3e2f74",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "33734c0f6a77183d0c59aa5fc68f92c07fa9382846f968e284e82bba2f465b89",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a6b6512793b4102041ea3cb835efbc8ba61cba800e07453dffd66703e123262e",
+      "tests/test.sh": "e39706afa8974f3a9949f2aa77012b37399578a647136bd065000f3273cbe719"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "httpx-streaming-json-iteration",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/httpx-streaming-json-iteration:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "8b9cf46588b87c532be947e1ab102f1bf3241ad01133f5ca6c461dc7f7ecd9e6",
+      "solution/solution.patch": "e5c0c8b05b58adee89e56860a44324f9e8d325171927e56fc7ef0029f64f2438",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "c3c1d983f347e37c7b131039dc97590f5160303acb26ee541b9499f906c751a1",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "bd31b5332a542e94b8ebb1fe9e749512a942db9c7649e74533030e669900e849",
+      "tests/test.sh": "fb21502b6357332d46af6c1e78e2999960e8953ccbb37bf699f62fb1dda47277"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "igel-persist-feature-schema",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/igel-persist-feature-schema:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "af7e38939072f50ed4d0fa9743dce1d963140700d4623289fa7ecfbcae301c49",
+      "solution/solution.patch": "bafbf19f0c48b22e5f17400b8dc8163db3a0b125c93fd76748641949981a2fe4",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "9e556f511b64cd3a8e26ecb03743d9664f86096036dfd8c41a6ec5f3bbefcca7",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "39cf81de193669537a82544b9ec939aa0c0ce7431f11b1d9cb0a3dcae89b4f61",
+      "tests/test.sh": "5f7eff61b7fb6815fae9456383d3a2529b85b825109bbdaf0a0644b52c85f06a"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "ink-grid-box-layout",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/ink-grid-box-layout:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "8913c555865b03f915888ad262db805a5d6b004b01b034c6502fe64a5938a34b",
+      "solution/solution.patch": "399c2810c174ecbcc655461a8584da9bc706daf01fa8cff273c73ade7e092df2",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "351b102db016486d92ac5c5273957f9169c89d0a9593cd3a3239ce1e5c5d8273",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "49243aec9574c640065b6ad959e71d2d328768483695750a31bde3d087eba264",
+      "tests/test.sh": "dfdcb3233f8d3dc796baeb19c5b5a57f6aff87d0e42cdf1174f6988b45f17e48"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "ipython-session-bundle-replay",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/ipython-session-bundle-replay:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4f32a1ba02f7c46ccdedd09b6de17a91a89b0567980bb343508ecdfcd90388b1",
+      "solution/solution.patch": "2bb75dd23fd716b513e6671becf4406aee510a41ddfeb1ab265abd738192bf32",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "7817190e5771f00559e1aec725c9df1f09f295f8692a2beb34a77a73069a452e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "b4fb1073b86da6b432ab67fdfdb4dac4e474de85e186be8c7f1986ec5ef5c487",
+      "tests/test.sh": "050ce2558e7759be9ce57bb406befbeb33258239615eb479d90f4dd1cbcf11ea"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "katex-multicolumn-array-spans",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/katex-multicolumn-array-spans:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "54e5a648f5c2151a57f895d5ea4d814f44cca52daa5e58a198877f398ace28f1",
+      "solution/solution.patch": "08d2e9b75ce492977ca2e3f3431216e932410a492001bdb21e702778831c45bf",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "ec1a2fd78e14224482b9d4ee6857a0a58117bb0bbf87a0dcefb6383a95e0c6c1",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "9a45f15ab7b2f1737aa4ebb05c532d85189f759a649b849fe147e9e61377de9b",
+      "tests/test.sh": "487f01bcc81d69b492c6cb6c18e3e2d078ab739b3a4c37cdaff4fb4366de93a2"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "kcp-go-multiplexed-kcp-streams",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/kcp-go-multiplexed-kcp-streams:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "1bc7b826ff68f5bd9771c80ac355986ddfa2e0c5987dda4d4896ecd47ef3072b",
+      "solution/solution.patch": "3cbdf470a26d8cd83495c8f6674ce99cd84e4706cfd55f7b16e4a8944fe8200c",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "80e5f39921f45fcb803b728f316f8275f0dd2129923e84ce0117dc21e71afc63",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "dbe5032029bd02c9a4994a43659fdbf4555cfce7c6d0da87a56fecb5a4735c38",
+      "tests/test.sh": "a31d38bd16093125de66bd0ab4ad103f70fdec835a1c14b339427febd2b29c56"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "kea-atomic-signal-selectors",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/kea-atomic-signal-selectors:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "a7bde3311b63eb381fc29740e504ccb259e60466625b0626fa440ac545527deb",
+      "solution/solution.patch": "4057bf357d899a1dc84f81bef74c825c569a7ee70f16ad083a21a8bb320174d9",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "f26007a19eeefae915f6902906c7f29ce6060f688a0ef783f327192b56166f39",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "22a472624a5b29fc12ef5cb27da0af4c7e8636250e625a710ead46d6c07e9170",
+      "tests/test.sh": "b9c820bd610f1476221c663fd326574dcb1d0a97cde064a2ccad342651de1d56"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "kgateway-consistent-hash-policy",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/kgateway-consistent-hash-policy:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "6316ebc35a9c06f88ad2a8a72aa395dc0059927cec392b820106b27e9c20aa3f",
+      "solution/solution.patch": "b48804154c32077812d77d1d9de6a96665ecb77132d5e84a9ffefffe3e852323",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "89914cf84a4dff3bc61c4667312db4a2f2bb5431deae2ee8c47d868ca0b8978c",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "b2e3c1d5107d70c66fe312f38c8e6e505268451205f0044b462974a814c295fd",
+      "tests/test.sh": "0193cb942ae3ddc24996fccf4cc41063ad2dd84f05641a1f757da1efcb249182"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "kombu-single-active-consumer-priority",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/kombu-single-active-consumer-priority:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c40c52ac1ec444168f42dbf58babb9d92360d1cff4b5d71cb3abd388832b2cf2",
+      "solution/solution.patch": "580ac4ba40472e7656038878caa52bf9ad623b32f032ab3f50ae53834e0628aa",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "80e1d1cb3b4efc258fc24da8a1efe84f4af43179873b6809202efd846a732703",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "2c64d576317fed808845ff100f8b6aeceed079d3ea7b881d3b7fad90e3e098a3",
+      "tests/test.sh": "721e10ab0c2d26aee8cbade1e90c145924ecfedebab160974d8619c0210f7c6f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "kombu-virtual-queue-dead-lettering",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/kombu-virtual-queue-dead-lettering:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c9758bde38041c99fa9bcd8cab3611de4c25bd0389671af6b4ef9a59cc8c988d",
+      "solution/solution.patch": "b2e2cfb43a0aa1349708a6f73d1a02c9254d8bfbfaf9ace3559adaaee45b3d26",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "20aa9064ade9801cd915e0bdc0f2d15e3357fb3ddc7afba6a0089c101ac3f6c1",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "7c3d2c91426f0d99ec7bc6613da8793ad0dbc5735b43214b3bc74d1e3ac85974",
+      "tests/test.sh": "721e10ab0c2d26aee8cbade1e90c145924ecfedebab160974d8619c0210f7c6f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "koota-composite-trait-aspects",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/koota-composite-trait-aspects:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "300c70ea3b277bf799c272cb7415368bb631856c5a89bee1e7cac474f5810c25",
+      "solution/solution.patch": "6626b19e70409bd2df3f5a3b48015243bce577c4aa2fb8b87f3647d3304b6cf3",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "3f7cc1dbf20abd2c2d354fb1270feed07a5df0a3eefa464c8c3449240c8dd8cb",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "5d8c926bf93a041f4010fda23da2942583384a15f67e97f770b5d76f227a6912",
+      "tests/test.sh": "775164cab62cb1b75a8586cabfde5c95629914e599e61312eaddae7f7ef6d12c"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "koota-deferred-mutation-buffer",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/koota-deferred-mutation-buffer:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "740e7847d71f883e8897b409693689ef06c0099bc333cfa78932f7e70e4b4077",
+      "solution/solution.patch": "3160cc2a32668e3aba0b1fdd136a114e8094e856c7ebb76e76a19a21eeebc1a3",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "8f7d3b3118bdb53a1519721df84bb164204ded25eb8122d9320d6dbf2e148bf0",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "af4f3463f8b40ed7dd999cff618c7b697db4e03318888cd653cf83bf235e49d3",
+      "tests/test.sh": "446d048f13ed142328be2e6dccb848a43f20ff611480c55a20a45e388cef135e"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "koota-entity-snapshot-rollback",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/koota-entity-snapshot-rollback:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "e725648c0a8d0d84d50ad33749127cdca35f16d2921253b10d833ee559cbc671",
+      "solution/solution.patch": "a17b91ad3f691077c38648eb892893f6568c706461f562c09087c9014739d40f",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "3788792b28af8d62644d86a8b42303890ae3fc5f53a071ebd8f0087f96ba7e8e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "1d5430d25fd8fbb9c4641559dc2e9d1b114108502379e143648f1796c2526f9f",
+      "tests/test.sh": "32c881672c2b74e20e0fc309dcdbdb67ac3a50eabf62c3e0cf3cf80ee1df7cfd"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "koota-pair-relation-tracking",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/koota-pair-relation-tracking:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "7b15510d617d38ac1fab6cdf902aa577aedb34516e047bd469f4e8ec868d778b",
+      "solution/solution.patch": "715d824128a7c8a6ed41b89f1a855de995f4cd9da933e987c4f708582e7acc8c",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "504f84556eff4a39f98a33c9788e9528ba1db10050132c95d08381cda3d7c3a6",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a5702a062000b6c1e717e061bac7e5c1b8423b42ecbd7af34d19cdf596d03b3c",
+      "tests/test.sh": "0d29fc15947278de26c3381f0532504dd902968ab9d454f14271a42343a99494"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "koota-query-predicates",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/koota-query-predicates:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "eb244417839f2591a1ac02ddd06f719db942d8d81cbb703c873a6d71d7749e0e",
+      "solution/solution.patch": "4fb7122afe882a7c9dfdb21c78bbda36e82e5ebcb004913b35d0b2baffb42681",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "9a1630e3cdf80b87c647f04a1232d21e90f7dade043705d59ef599a711f3e979",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "7960fb8e48de9b8a381d52e23c4cdaf64afd5e09d6e8a6e27da2b7a4d5ba3e9f",
+      "tests/test.sh": "607c3e5978719ecf33e8820f8798438eaa8abc96ecf95446081acc85d8b1446c"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "kysely-window-grouping-helpers",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/kysely-window-grouping-helpers:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "7b56ec113b59dc9386b1ea5c7c6d252c6dbcef333b7740744cfbd454eacfa19d",
+      "solution/solution.patch": "0acfbf0cc2a1577de23abaf3d39a230b5ed6ea23ab518ae75e30a856f626ba80",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "a6454a3aa832579bed3c45f7698c16e76def9514db4847149284df96948948c2",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "ddfb6a402bceb390dca9066749028c0737d6c09c650670ef22f3af6356e6ace0",
+      "tests/test.sh": "658c4a54b468d4b4702cf92c5c19f39fa670b5292c45186fc06fed7b5ee5e5bf"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "langchain-request-coalescing",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/langchain-request-coalescing:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "208b99162a6a2a40e25630f566c3b735d3fea91dbb3c7b3717f5a3a3c7ea3557",
+      "solution/solution.patch": "7ba4f9d876bd22c96a3588f6beca6acbbbc97022267d93c7a47a9eba7320ecaa",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "6cc46a5ee7708dea6c53c5048f1578cfd83395a59ab00668810756910c4e151b",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "2b36e5be1d7281433efeb6dd2ee1896db6f268b30f3f12655fb9772324e41c13",
+      "tests/test.sh": "a5d4229a4171a52bcb7d05f2ac8e443fbcae9f406a167d3bbabf6dee84ff4aee"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "mashumaro-flattened-dataclass-fields",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/mashumaro-flattened-dataclass-fields:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "de53da160889bdacf28b492d639f84ff899e4ada661d4afa550460ccb89ba9f3",
+      "solution/solution.patch": "97d965b3be2ebfc93b23674d310e9160b5c75e647801700adb41cb267220048d",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "93129d2c6ef2531a12d2dd9ff3fcf158525114367b0cb494912af83c37f80332",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "0a35d05bf2ee1e3ef9b8f4c8765725218ad6e9695dc094ded8a3899372731d4e",
+      "tests/test.sh": "9875ee2d2ecae63d0bbbe037aff1be899f37ca3cf84f230efa51ac591aeea40f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "meriyah-explicit-resource-declarations",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/meriyah-explicit-resource-declarations:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "a85dfeb98a4203f9eb7392f918543fab27d83f344a92d290454aedc145c7b5f7",
+      "solution/solution.patch": "f09c542e402f0ea4b736152abcafa4915dc47f3b8b721d146616baefd2f6d82d",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "3c3f0aa5fead486cf8e4e96882db3e930c8023ef4b289eae19a923bde3638d0f",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "295fa1d4bb16409303a13b5252641b439cb4e3e19c65fade6341c01a00581395",
+      "tests/test.sh": "2541c912d82661288d00d9c396b59d766fa84876a659662d58ba7043306571c3"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "mnamer-daemon-watch-lifecycle",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/mnamer-daemon-watch-lifecycle:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "1759aa73299b2871d311613b6d53259f7b32dce806f6978542e5b111f5ab4649",
+      "solution/solution.patch": "adca51e799d1b59686ea4de45d872a7edf27f2d2b3107631e22577f3cf638638",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "e3ba95332512d174d0db1ddaaf37ba880c9bcca163ada0536375cacf0d96e5d6",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "36f071c42aaee9907bb6ac8c0bec7a8d3a285ed2030edadb4c0cc57f1ac4435b",
+      "tests/test.sh": "62377dc1a9b1b88a797570b7093a8eeedaf5f04e5d5d87078c3042355a7e35c9"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "mobly-grouped-test-barriers",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/mobly-grouped-test-barriers:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "475b2b59d25c8bf27ba72b9b079207cca38f1b39d250fb695cf1f47015a0f064",
+      "solution/solution.patch": "5d276f8f857f00de96cefd4ebe40326158c693a614c6c015210276504158981e",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "6aa8c682778dd290aaad72ed6b3d5e8f1e2d30587ff8dcf11b2c37eeaf52096a",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "231b908fe00bd2b65e8e81d470aa2ea3b944627fe458b4ad3ea901a0c4b927ff",
+      "tests/test.sh": "8a054e2dc9c60e0c6fd246dab9417a8a1014b8b81d3b8132286c540ebe320cd0"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "narwhals-rolling-window-suite",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/narwhals-rolling-window-suite:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "d25036c0761a9e6a2194f40bda5ae29b12487ee4f4c2045e4326ece0a80679a2",
+      "solution/solution.patch": "13a3c82366454efa3680955e4c7f7be4cc46676ddb635d9fe14892de38d447cb",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "8137378ce50c0b4ba10c51b41fbfeee36be20b80de8237ecdeba0e41c2747b9b",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "4a63f38ce6e17c87c27db085c4e4146601be990e17141a1c0fdea25a607fc0cc",
+      "tests/test.sh": "04e46fc9e42527bb5e72c971da3ebc71d49c6ae73c249d2290d8bbed59b4e66e"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "numba-stencil-boundary-modes",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/numba-stencil-boundary-modes:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "f04c458707106be3c67a530cd724a92b72f4a8e5e546fe926a8891a7e2fb98bd",
+      "solution/solution.patch": "eaeffb69cdbdddcce827c2a8529c69844a67d65b217cf77abe5494526e0d107a",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "67af6f610b1635fb72fc9a6e579f420213f3288fc5854698aa8eba6ceec7bcc7",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "2723583dd41a692bc47bb08a5cf70c63e141326771c2b035eb274a10b92de50f",
+      "tests/test.sh": "2c76b2c889efcef23ce7db8a80aa9db67459b2f0fc51aa564f8447f6354c4feb"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "obsidian-linter-auto-table-of-contents",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/obsidian-linter-auto-table-of-contents:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "f102c36c7b1167be2f741746385459ede300afd054d5adbe0e66b63ff234af36",
+      "solution/solution.patch": "87e5a995bcc3ccd1b7137b65821d3c4a4263be2599d76a9785a16cd579377f45",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "4c5ce41675eda064cfd9463d21b16515b0c65c3c98f86ab3627331e115348b1f",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "4eeb646c5ba0f884961b3c2551b8004c931d111c3af7d51a8151acb755fef263",
+      "tests/test.sh": "3bf3bcf3ec007176d2fe8cedd9b6727c22e4811f9ac1e8a8549e2b9e9d779756"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "obsidian-linter-link-format-conversion",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/obsidian-linter-link-format-conversion:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c54e9a11b92254161afeb32cbce31ada65524854df372f889c00f5d9ee8962a9",
+      "solution/solution.patch": "363a9d456ac553aa5859493acf415bff5a981f964f80e3e691686214eaacdc2d",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "6760f97e57f635d52cdf60e193213a6704188708480c564e95348a1bb864eabe",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "3d33a26a9d85a2656040cc3a508d30d7ed0d54f7471bfedeb071100b4af84d48",
+      "tests/test.sh": "def4baf8427d64d8e4268742f6efa763e976429cededd499f7d0d5a9a22a6020"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "obsidian-linter-scoped-ignore-markers",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/obsidian-linter-scoped-ignore-markers:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4d3c90c60dad5a6c2a760b36b484e510c080fcfd5d6b35779c4e82e869d09014",
+      "solution/solution.patch": "4d2a0657b28234fd0566a28913ce266269fa032262968c36601da5f87ea1d96f",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "a0875cccb58e2b474f8d7690cbf4b45c5652247bb535258f6419014927dfb4b6",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "8aaf0e46be0c8ed9e377d5a216b937a8a3e56f56f2028911a1dea43dcabe5da6",
+      "tests/test.sh": "bbe45cadf610294ff87ded1ce978b0b75784f75a4f9d2589d69f2b424bc6c060"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "ofetch-per-origin-circuit-breaker",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/ofetch-per-origin-circuit-breaker:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "b6f09e6cf27c3116f8f1791a0cd14204b59803d8e2fd4df8275598796d76f83c",
+      "solution/solution.patch": "a4dad53494d4d061af11531d76a35d923781ca1d378a235554efaae4c150bf4b",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "b476f2a22a58c881e68c1e361d82352650f9e1c185c3752f2a9e9d7eb693a94c",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "757b924819aba7f6e7e557021a7fccfb9b3d46c5b8fadc40892b7b0a8f11d307",
+      "tests/test.sh": "fcce930164d6342990c80afe1df3d761a829babb7eeec4014182238a34047c96"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "onedump-dump-encryption-pipeline",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/onedump-dump-encryption-pipeline:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4d8930c28068d48abcec2357f0d526aa7be68a1b3f972cf7da20046e37a5f852",
+      "solution/solution.patch": "28da036349073dbf13453ee13b9fc66a655176d1c1fb47515bf09cb206195421",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "03f3978db21a68c3f6668957df387bce759a37cd9cd231b4d214bd595e917414",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "58f3390136a08ab93ff54804391abaa034c1b218b9bffbab21a8c9e0c5cac5bf",
+      "tests/test.sh": "97ec9ba43875916dd1a57d933ab944929703e03b55f332a4e3134520cecc0bc4"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "opa-rego-rule-profiling",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/opa-rego-rule-profiling:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "7892902b74c649f6cb76caf6d311b880ecff88179e6b5afaceedaa143160ae87",
+      "solution/solution.patch": "9782bbfb27648f7c9dcef7cfad3b36f6984ad54d61974e0954f5fa803f40ebf8",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "6eb4f03a0660b63d529d187b476507950f150ec3d80fc5f11dea44f24180d6bd",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "32942b417d85a4d8d31b2ff51398985990cecd84f5f9103e46648f5e25232fec",
+      "tests/test.sh": "12168cae30285574437073741e2fa24576bdd4cabe7ce5ff89ce420c04f71ab3"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "opa-template-string-reconstruction",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/opa-template-string-reconstruction:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "d36537d6cbe3c99fedc73640fda871cd77cdc1940d74b70af1df8cb77089c7df",
+      "solution/solution.patch": "1119bbbc9afe74c0adf9dae127229b185589f235f40d4fce825e77b43104f83b",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "b4ed8eac969ee56a83e35b79364621735022ff2ea19d547029ef2f2fd0ef9a15",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "c43cc961616fcbada6a8752b2606da3c1fca736e5bd85d95f235b5c2b5c6e6dd",
+      "tests/test.sh": "539162ab1b5207da4b27e60520cd57814ae983a87ef6278f7d3a3f4ae38edcb6"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "optique-conditional-option-dependencies",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/optique-conditional-option-dependencies:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "bfe35f35e82efdeba62d75a21df8687029ce5c0e50bddba5327e4285cc5cc41b",
+      "solution/solution.patch": "1ca724be2780419b117a05653a8e0d0ba6999f24ff1e2bd4584d0b7ea448e5af",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "9834dc7684dcb9bb9cfa99f17648850b71e8b24ae42b4ede2fab01c86c50b96f",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "0f1c2133c2c749365028a9a6896893394256542ec57b55adf59eb67ff4b42af1",
+      "tests/test.sh": "78aa2f7b8be06086b0b69638fdc523d965f016fb6b002a81cf656585825c9d4b"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "oxvg-structural-selector-preservation",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/oxvg-structural-selector-preservation:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "8d2295f55760d269913b22c17b4c345ca41fd2d586fc6ba59c34fb97b4422db9",
+      "solution/solution.patch": "90cb591ba627b357411b384fad244d9994994ade202f5ca8dd0af09f89bbde47",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "04fc572bcc90d3e8e23b948e68ee19ca337151fea85893164a1e6b3e49d3dbfd",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "e5f182a2b2c14b2c1be8899cdafaabac2d5b41cfd4b6edf3fcb1a905d070fe2c",
+      "tests/test.sh": "5f7468f0e7b6edb21c7f843cb56bd9982015ac5a8e224d3ebdf6a2788dc96459"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "participle-grammar-conflict-analysis",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/participle-grammar-conflict-analysis:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c8b17d9d68b6774d3b9d178bf49a9257bb75e47946f8f75254e03244e0e4cacc",
+      "solution/solution.patch": "e9a1ee9b4cc27f99a9e267b65bf789308c6ec17c47e25471a0d526df4f7c5f48",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "2cddad1b73db6dbb89d1aa69dc7295f1b5566b38ca6b2c96e132f0c486cd5d05",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "ceeca49eb1da519269be4ca93770bb53d8b628bdd12cf12841b980d703be4ace",
+      "tests/test.sh": "b2ecdefd02ff259baa21ff354f60d63ef265397f740a558685877690b7388934"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "pebble-durability-wait-apis",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/pebble-durability-wait-apis:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "c450d7ce94f6312c9a1171eed84e0b7ab9bdc1c4cf9d79e5995c208a50c1c9b8",
+      "solution/solution.patch": "cb6ab718d25efa038639c844824381be54faa2de9ffa539cd480bdfb98e8cc49",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "77a94dfbd343232650d3e7cea87f708a9d672db5f60bd7fa1f8b395979c5eb1d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "e635a3d517ec5568def10b2cb0eb4cbf752ac840748e8f959952c09494a32276",
+      "tests/test.sh": "b9c22073ce9e5b2d1ed2984ef2f71382371d4587db1c9266b71ebf31678cd4bc"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "pest-character-class-coalescing",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/pest-character-class-coalescing:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "0368afdee566cf6b3685fb3be6432afb26104661c06c8d3102175eb8c2a31438",
+      "solution/solution.patch": "5dcf463f6de9f9aaa2729c0e7fb521fa933de3e76154da22aa9e38e0fa281886",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "3fa5b7f456d3527539878ae5df3b82f9c08e8446ff6ac421addddc82c80984d0",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "e415499694272a9e232b8e824306093996cae3a6d8783656464f1c4eedfdc9d5",
+      "tests/test.sh": "a65c498000b2b71fdc1249152cd6ea54223232db203dc15fa88706cdbf428dbb"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "prometheus-transactional-reload-status",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/prometheus-transactional-reload-status:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "72d6a78c1fe380ee2f8e163cff7255b30ea6cdb6e81fe8753b5fd62d2677362f",
+      "solution/solution.patch": "01f3f938772e886898d417239bb7e09175c71c66b7f29afc1e9e7400b5cfbd32",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "c6a709c0d8f7f4581fbb495f10089e25fe6a13e9cd81b7e5ff93145254a475b3",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "e570ec05827cb951b1cd58b417e04d39805523f2abdab32dce84d7d4d8c50435",
+      "tests/test.sh": "cceaea3336cd8280818ecf9b9707f90e7924d3a836c8a36c70abb8c2927efa51"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "prometheus-typed-label-sorting",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/prometheus-typed-label-sorting:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "02ffc5959762f9358d2b6a046c808e1468cc5afdf52bdcd7c36c6020b8b748df",
+      "solution/solution.patch": "49fda76462bea374adf9d5ea103bfbfc0f6024f61704634d8219329813872e01",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "eb9d602cde24d308f289071bcd009f1b671e01c0fa811b7c1176b40a244dba03",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a13c61457beb3a5a50d3cfa89105a56efd8c2a447ffc5887962358516b712afe",
+      "tests/test.sh": "ac2015ad9cb5a81dd69014f6187e9b505da0c29ac093f85074a7829c5030ac1d"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "psd-tools-blend-range-api",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/psd-tools-blend-range-api:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "be619e943671da3bb1e9855c0ce939d54491c5cce4a45553403cf026d33255ce",
+      "solution/solution.patch": "7823a1812505d67d61c8f8197e7385afff836f2754e34fb1415612569ca612c9",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "80ee7decc21f15c78887a4d59ff14208d4dd2c17718ed43253a11c5d0da0f720",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "4816d794589fa15547ba819f591d8211b0a1d1f7f9fd6902d985ab74565ede9c",
+      "tests/test.sh": "69d2132262265cdac82af21251827871226645b0fe2f431df5e5956663e395e9"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "pwntools-tube-multiplexing",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/pwntools-tube-multiplexing:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "d57d68f683be7ddebfb65a2a25dd139143ebc4409c46f09425ea4e38ef3b336a",
+      "solution/solution.patch": "dd10d7329d7feb460c07faa2c32616cf29196d1ef0fcc98e72e4a676a3e38586",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "643e81014a15f61805ea85b2d4b36fdf780f76cdbda8b0bbc7791096b498633d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "7ca6180f5d0c2d0b6109b3f649b30db29447dcf42803d8a615ba11f500db8e88",
+      "tests/test.sh": "b7ca71e97618709eb379d99056d085e25a4eefc8c32e4f9e589b47d98d4edda5"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "python-statemachine-state-data-scoping",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/python-statemachine-state-data-scoping:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "17e0781f9837bebd7304d5f1594dbf7de9a147a3ba8f03111e005f8376b3126a",
+      "solution/solution.patch": "4197380535a2e67258afbdac3a7cb91d6a2c9ab1cd70c4cc09e973b739e4f81d",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "1e80a71d50ca26e61d859d2593af7fd7e1018dc0dd09dc884256ebaa2c01573d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "fcf7628db832d77da0f31fb287d5f016e27c02550ca54aa6fd19c9aa4d8bf0ec",
+      "tests/test.sh": "862042ae6ce0f2d7683bb6f6f8d8e1b40dfaee4f63b250b6c08b1d64dd4130dc"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "query-persist-restored-query-state",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/query-persist-restored-query-state:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "f3a5f63f195bbc7d556ff62ffb609e2bef69cbef25f1e0c537b8d18cfa91ac95",
+      "solution/solution.patch": "b00f4c1bc2282c06b9a2685ff3ab59a4ae866b7ef038f11092bf44327f0c5274",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "3be4ee52eff3096e9292fd6b357e6bbc8fd46f190897d577747a59d6dcca33be",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "873954d4d1240a64e4f338627fe65c0d124b256311998339507ddddd1943fbc9",
+      "tests/test.sh": "b7b1bbc059c2c12ec60f66c66e584eaee9bb70825e0f16b666c887703b061926"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "quill-shared-toolbar-focus",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/quill-shared-toolbar-focus:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "a983670bc6aaee7de85eb8aeef1a4f1db44788ecc36905a0bccbec469e0c73cd",
+      "solution/solution.patch": "9587dbbe1e913cc35b6a8b56c7ad67beb436036c228cb0dfc86f53a396f218b2",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "ba4cdf0d3cf6ce04e0984ca7a4c6e622786d5590ce8d0dfaab3fec42eb7f818d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "8e9c5503be1e2b4add7aa4e7840c133c732d04e0877b425b03a3eba0dee4f60d",
+      "tests/test.sh": "28a3d3184cf39f1f18b8a01860064ff6112065eeddb156b14fd4622321ce6b54"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "returns-validated-error-accumulation",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/returns-validated-error-accumulation:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "77d27406cd485339c36030cde62de2a50233a0e3253536ac0468b4f1c46cc208",
+      "solution/solution.patch": "e3dc80a04199cce09395838bf40ec74494012d44bb196473776291f3f7fcc451",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "060f07ca8a5c74c88f3e253a4b72eb44fadd9f82f28884fc786f37eaa8b6d471",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "d4f92adfa57f16c3a05b6990022f4e9cd75979ef63e8f9ee10eb63fe313847d3",
+      "tests/test.sh": "f89501a3d1145d80c7d5bb79aea3638296f1c379f8e305801e90500bc33dceab"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "scc-bounded-memory-spilling",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/scc-bounded-memory-spilling:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "fc99a21974fa57940e3ff7e9eb81c31b06728cbc39177faf5500667cd51a816e",
+      "solution/solution.patch": "62b9ae1bd1cee01df711c783f796f2b3ebbd5ab9324dc9e9b53535e4907100a6",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "b8db15513d3a79790bc28c1a8ffc76e713162613d242deddf87d9c53970495e3",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "4c945a497090002daadb33c6ceca8b5e0cdee41ec5fe93a991e172dad5cc560a",
+      "tests/test.sh": "ec3e9327826cbf84ac01c69dee5f0dbc4e622e5a3c948b92bac569da753cf723"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "scriggo-method-declarations",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/scriggo-method-declarations:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "51072c9c1bb463702c7612d1acc9a98083a72dfd82a8277fe72aa7bcbe991940",
+      "solution/solution.patch": "bacbd42a9c02be2af5a5bafad21f22599c33af1e49593090522596499f7b725b",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "145eb9f2c3bc16a12c7eaf1bbc2a8276a9e99ae7f6baebe43803a33f313930c4",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "ded94ecfa857188e8ca375e3793c0f9912a84fad02028e794a6fc8d97a95022e",
+      "tests/test.sh": "0801c26bd141348e95185c7c19cfc576e3cc8825ff584934e658724bb4ec91f7"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "skrub-duration-encoding",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/skrub-duration-encoding:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "aecc575c2253564382af8fcb9afb0af11b47b8fda94c7625100a18148919e95d",
+      "solution/solution.patch": "02b3e1aecaebed22fb0e85edf5fc25807c3b1f61e7a06b18c53536aff1258616",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "1047edcb6c6af650cafbba6d015b0db12e33a0ebcedb1f3c720b95b2b8fc7469",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "e59bf620b171ab8ead1f288c5cb24e85df61d5ba254028290a4ea3a0dbcdab8f",
+      "tests/test.sh": "c46dfa388313f5ef8f95310906ef30ed68d53a255d381eaf9ba7a79c073b87bc"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "sql-formatter-bigquery-pipe-formatting",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/sql-formatter-bigquery-pipe-formatting:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "e896fa230df237b89356673017c48a620c0cbc40d48cc624dbf0840d5b72aadc",
+      "solution/solution.patch": "df622e9cde3d7e8a88c0f7a47ab7f2295b9291ccadf703517f15f5862f980a11",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "0af646b326f51c6a1fc45820b4ac0b50aba223378d2debdf2129a653a8d82dcc",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "aaec334430305f12ae1d0fa410a010724169f44dc5dc5600acdef5fb49766e7b",
+      "tests/test.sh": "4130d8f51e26e56b3641cbbe0fdfdbb101a50dec57f803b0229f7893858e2899"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "sqlfmt-create-table-ddl-formatting",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/sqlfmt-create-table-ddl-formatting:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "9e445e5be9287df6e9843c4d630fc4ddd268775b4511a04f8e6560933064693c",
+      "solution/solution.patch": "ef190e0a685d614446f4ceb267ee7d0d24383559f1c33ea365593f8e4618367e",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "9e7cbc59d12769f766cd04fc580972d214ee3772fd92b13398c41494c78ec8b9",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "2c4e74afb5bd957ff90a043c2fe8e8313382b64106dd839322068e77b37a1b6e",
+      "tests/test.sh": "5f8d66ffade496f1af12f8864e4a515a5d537ecc2cb2ca7bfa2ade9adb729054"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "sqlite-utils-safe-import-checkpoints",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/sqlite-utils-safe-import-checkpoints:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "dcdf0f34992ce86f4ef516fbc4cac6daaf159ae4542a6bbebe055e37851ff7a6",
+      "solution/solution.patch": "bd0ebf9938e9b8314a95be46ade85f903caea488d4c9280ba358a5d410528538",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "9cb7058245254dd8c3fb916eed363476781ab79f00f2a1cb3c46a435a160073e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a36f34c653177d27a0ba19264576fd5cc823ce0b01f5b67164a413ef4342352a",
+      "tests/test.sh": "5407a6184819faf7884b8974a0b05edf0c04dfe28f3d103893704ab75a6de02f"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "superjson-error-stack-serialization",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/superjson-error-stack-serialization:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "cb5e04f0f6c01180a47f1205b6d86126a8a7f9e7d5662e4f9477daa862826e30",
+      "solution/solution.patch": "f2b1c96b99b5de005c1607d19676bc7288a28cb8929cab8433aaf01a654cfc2a",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "a41f9692b871c6e515e4215f8a2531df9fb0c0e65a482796230acb209040a52d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "1107931e0442dc35b9bf9d2c647b35ac93d44c52607eb5733511faae99f78398",
+      "tests/test.sh": "a49e97fe46c86e5137ac6bbad00bcbfea2fde0bdbfe9023c35745ff2c7f95f42"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "task-task-graph-export",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/task-task-graph-export:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "7ad0183d34b7271fd4e7e31a60133e97715e8e23c2620c9516d878dea4a48c8c",
+      "solution/solution.patch": "31df08de37b7bd610014827cc9a9367f9fc4ed7317495d2d0561dfcf3e46387e",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "33f778b6aec9552d34ff67dfd91fe7625e8250810a7350a5c3f15ad0cb98104e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "9ef1a056726c9fa0e540e4ed4d98d8fafdd5f2915a498218bef496cb53fe502a",
+      "tests/test.sh": "b20c3efff6caeee00d75011c67889fb9941707cdf635d50623b11ac4dfc949e7"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "tengo-callable-instance-isolation",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/tengo-callable-instance-isolation:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "ea2d12e6c683a868e29d90973d13da585a15f69c633a56570bf4492fb5091ec5",
+      "solution/solution.patch": "2768c3a8e41ec9fc02709dd77aca530b4be847f79ef609c3d28be62725847362",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "555805aac306dcae154b97905baee38156877a5d72950ebcef44fd2bbe1235bc",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "d29c3c01914689b8d561a10fa4d7651ab81a828daae8eae95f04aee0daa91d2a",
+      "tests/test.sh": "073ed41aa02013196ba50adf68ffe830d1ceef33e2d72d53115f5bebea9c1be7"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "tengo-destructuring-bindings",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/tengo-destructuring-bindings:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "66ced56f884faf74366007249bf85d4c4a510347aac5697621dcc6a626c274ce",
+      "solution/solution.patch": "08cf4d836fe88494799ff94b277601572c0ce41851945fb16bde3283308aae9c",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "89e5ddcc41b9426e7b352afe90f2ddee33af390f61a6d80f6ab3b39e8ced4e46",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "f04b5cbd01ed5065bae760ad4d411e048003ecb9f3898558edd1061ff8a193a0",
+      "tests/test.sh": "06fccdf3e04f6e5aa5f1adc27b59d37a12b2382868bfcae06f78fd23eff47c93"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "termenv-preserve-ansi-resets",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/termenv-preserve-ansi-resets:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "a48484e41aedb6ab3ad0bc6deff51983b4ed47302ceea642e03d9137ae9ee421",
+      "solution/solution.patch": "514ee3f7a8c6e0ed8049b195f1570537ea07c473f9fa73b3b9a02a0956016575",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "3620a08de2d43a7e9ec4bf1f8fe95fe942edbadaa0d858dd896e34ad1e71acc4",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "f91b88ccf484320e612cc8f46827f5db261669bc9307de5b2c5954309a843913",
+      "tests/test.sh": "bbf57c30b394173f6ae521434b1aa7d42212d44dfad1094d14b46a3cb0df125b"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "testem-bail-on-test-failure",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/testem-bail-on-test-failure:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "58a959e6c0b7a5db029b9958a940b3d66e66d4a3520acfaadc1171375451a1c4",
+      "solution/solution.patch": "faf464f98d487368a83024ba64ca59087cdc4d113240c0b5f290ab45f7df7b58",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "677c14ab7f6b21f3653d96b53c4c07191ceac31c9f783ada9bfd779ddf73a33f",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "26ba87a5221ce6351f768bf5252731725e07fc8bf0d5634f0bf7d319cb0ec2bb",
+      "tests/test.sh": "026c9d98acd81d93b415c990e6b23cc640b43f88187cddcb45958361749cac7c"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "testem-per-launcher-reports",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/testem-per-launcher-reports:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "f99cf0b15e79d005972f28c6c95c8eb5b5d623701afe21d348245f38ce6b9970",
+      "solution/solution.patch": "8c10d688198461ea8a244d0575f220c19428dcd5163f7316e9601c0225d71ef1",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "ffc9c2f4dbc4f8b99774d02fab377bd9eb32235e3580ab29ccdf28a7a23a8070",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "2f6be8bdd6d0f17b800c9213bd52d0cfcd780944fec4d8ed8164cb4d87980a9f",
+      "tests/test.sh": "73dbcea8bd8e73c82c8e395015b2c99969f3e75c06a664c89da6753fdfaeb242"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "textual-kitty-key-phases",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/textual-kitty-key-phases:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "88a48b1028f82a815f135e122e9b57cc0e942c677cf0dfe49cbc93318e1c5093",
+      "solution/solution.patch": "991514b68f5461ae59936c6d2b6f4df54bfe080755ce216566759b008d38649a",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "517ffbb446b43e3dbf215967d7020ee5202de87572e5fc9c3126e3e9d8880587",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "501bd72f9f02628b15fb011592b47b647f3c129f098cb946b43434863d386a5d",
+      "tests/test.sh": "7f743b0f8719ee9f305ba8ba09bab768fb4df03d6ec75fab6912e8c02f03dca1"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "textual-richlog-follow-state",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/textual-richlog-follow-state:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "bdfdf82ddd71a833695c99e1320b1ad564f8678711a9d5744c5f4666c80e5565",
+      "solution/solution.patch": "da6dc9c0c9ffbe5b874a2954c05cda06fb0ac2f6d538a1a475fe482e98a0415d",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "9831d9684d4ccb0546f9d38ea5154b4a9515c925a25ede57717ccb59e4ce636b",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "9d04aa13fca9e60c306f5127e911da237d2e153b0afc88da12e6004c35d404e8",
+      "tests/test.sh": "5a331b0c2049e33bbf5b80709bfa693114421fff5a5dca3c909850dd6bbf0484"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "tomlkit-toml-table-converters",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/tomlkit-toml-table-converters:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "f2cad77bd81747e1b66917791cb0dfb1ed349c9f19ebcf2b8c0724151c9c73e8",
+      "solution/solution.patch": "ceed00ee93606e6466f46237dbbeb1106ee47f3816ee4031f1054e52d2af66ad",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "4d87f2da8504baf7fcbbc5b2859560df0c56e4596026ff2767361732f6f8a7b5",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a587bd8a6bc35b9ec149a8f097ca2f06cee1aac53d20ac1a3576e79993a3fef5",
+      "tests/test.sh": "eeab3b4d7463a2a3df9874a7dbd77af3b37d064c67b7bc313359655615e090b7"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "true-myth-iterable-collection-combinators",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/true-myth-iterable-collection-combinators:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4537369d3e74272603e11c51da43243e687aeededb170b90cccfac85a7157b8e",
+      "solution/solution.patch": "c2aac26109a490a76c38d7de7e7dfb6e7516673f3ffd3761b8d812d7d6bb66df",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "28cc30c11b2a289095eb2c6d329f40a02fe951fc86098b60c0d3813516f93c4e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "96b47f6196525ec384812c7a4d4eddfe1f09ea71871c308f1f9b1e27f9abfac3",
+      "tests/test.sh": "530d1c10199b0289c561c0aa74057f7cff020a73a925ad05a3523153879719bb"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "ts-pattern-match-each",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/ts-pattern-match-each:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "fb3807619644dcb10abd97166980d79d69148729df24f97c41d40bd1b879a65f",
+      "solution/solution.patch": "33e84d6ce53a5e4375412cf2b12e9a8df6e88064987096e4cbfaf5bf2e726c47",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "babb0b7ab6db73e1fef3a813b3e59c948d3c678f4498bb2d50c33ae9b078cf31",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "6638df983f8d1dd49b0c38afe0a8026a778151931889e9fc5253c5fb1f6b319c",
+      "tests/test.sh": "5c41ab58c7428a1161edf18d840692d40a169bac6b2eee3ea10fedb72340904c"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "updo-policy-alerting",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/updo-policy-alerting:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "5f57493c1865cf900c66f0b505499e2e58c3cfe2da297d43ce3b89b95ec47ff5",
+      "solution/solution.patch": "91fbc22f18962f108ecc91639a913c4b3617faaecda701545167ec2ad8b86df5",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "477822e563e7144141830e38b2d21f4ac890c74a2d0b43a2bf9cbb1e6c5d1b4d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "5fee2393269dd12bd48cd0392a0a59bfd55a1a197a88a15dcb39356c717d6ceb",
+      "tests/test.sh": "2fa30ace14e1d5a7fda8a75a68bb610f7341e864f16bf80aea616cb801b50ef0"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "valibot-recursive-schema-composition",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/valibot-recursive-schema-composition:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "1ab478c1031bbb0614bfdce94ca7cdab3268df9938d3e8a342392e94ee86bd4f",
+      "solution/solution.patch": "0cf4a49cd2ed042b9e1bf1578f64082b064835e01b3da595484475cc4df875f3",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "d527d41666f9aa46167728d83ee77484a4b795613a3f0035593750e3cc9c7a7e",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a72a56cc06aee332199e463df66507357db4351610d8ef4bf33a17768c1b2707",
+      "tests/test.sh": "6c461a60770b7518cec591b7948fbcf1af187e4c50cc7cbb1d6753d865bf3df9"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "vitest-duration-sharding",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/vitest-duration-sharding:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "da582652f90e9c717d07c0bd2008e404e009eb7843d0910b59c04bb66db13c1d",
+      "solution/solution.patch": "222e756b7d966caebcdd17b9a9fd82d16847d84a849c7923e977a9f4fe5304f4",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "935ff5e8f343de370f10612ad284f9931b611d08429d373c4d89fe8516ae28cb",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "96479d5febcfa6d74499fe5da3abc8c6e861f557f26237acf8b51fe4fc8fc406",
+      "tests/test.sh": "7ee80ff1292ddf69f4f143cc362fe8aa8d8d28b9179db7f6d36dc20ebd6d5b74"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "vulture-persistent-analysis-cache",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/vulture-persistent-analysis-cache:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "2045f33db77e27456c3f64e3e5dc0e30b3822e1198ea4209fefe522485ae1b36",
+      "solution/solution.patch": "77c66982cfd975463308c104d07eef99543c5868337ca193ff556e2c15ecc940",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "a8de4104eceee2e7fed42f08556fe1e72cda7f2fc251f848cd3e17142a85e733",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "a81a7404ea92b40a82c6f4d79f153635db21cf7e385a258af5fc527927b82259",
+      "tests/test.sh": "c17975272116a783de29b4b1c87e5b55e2ff788337113459ad5fe1f345764db8"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "wasmi-trap-coredumps",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/wasmi-trap-coredumps:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "119346d012f769e6a69d46ce176610fbf42a181122c2e85379d17abe56672888",
+      "solution/solution.patch": "a24e859097eddfdbe291fa7765501fa72eb7006b51f532829a601fb358d3fcf1",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "54b18f54af4c9bc0fcc0a124182ab37e16a12271bd4a6d82089e959761c0351d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "502f598d21ecafb81f1e749c8c2a24c4be3ece4ff49881ee0049a850da8b9be1",
+      "tests/test.sh": "8f16e87ebcad4af24cc913c00470150a8fac1142255e830395b8b2898ae601f3"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "wazero-multi-module-snapshots",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/wazero-multi-module-snapshots:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "4021eec5ac2702f5bfd1059a949c57dde6fededb7a19bc68bd1f4bf050b95a07",
+      "solution/solution.patch": "9e7303c52380aab0260f97bffac2e003299d7b5403cbd57c7448bb30f15a8f6b",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "2489f929fc90f0c9ab4340cc315bf2637a747c429bca1cb90b2bb8db81e64549",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "ca9656498ee6c78134e03dffb514110054597072eb52169fe73e7740b9def142",
+      "tests/test.sh": "5114fac25e724cb98be000373a10f22c3ce5e2d72ad562b6583c7708849c494a"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "yaegi-go-embed-directives",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/yaegi-go-embed-directives:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "a7248965ebcbad521029058afede998631fc7ced02114c285687662a7fe862b4",
+      "solution/solution.patch": "cda60587b551a81b8a09d713a047e7b65685ecda3473dacd5e52004f591148e2",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "6a24c056855a219b09dd75677bdb20279e9fb1c94792b31576b26ae7305dbf8d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "917fb54b0ce49fb922fb95f69c4f24ef58e2b45ba7a583964ff52dff9877d545",
+      "tests/test.sh": "9063136dd0f9d4f4aabc4cd7693cf53bae99ff3b97fe2fa2580cb787802aff0e"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "yjs-map-conflict-detection",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/yjs-map-conflict-detection:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "ec6f54e53154aca614ead29fe45f2a85f876c4fe38aec5f3a0f20425e2611935",
+      "solution/solution.patch": "1ecf3aa95d7034b2c4962cb5e48a4e6928d62726906734622ea643c8a15a16bd",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "13dc8b9683de0a41ca6ba76239f69a4aeff09b50bea9899ffb65ef2df677a4a4",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "fc133287f93c4073bd26d6d8648ccad14561c5a57812f4ab452a4225dc7774a7",
+      "tests/test.sh": "1c23ca5323c12c4cde313203f771700ff19c994778db7cf0d43ead43ce69e5a3"
+    },
+    "validation_report": "arm/validation.json"
+  },
+  {
+    "task": "ytt-jsonpath-query-api",
+    "source_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "platform": "linux/arm64",
+    "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+    "task_image": "deepswe-arm64/ytt-jsonpath-query-api:0b9fabbb63b9",
+    "modified_files": [
+      "environment/Dockerfile",
+      "task.toml",
+      "tests/Dockerfile"
+    ],
+    "unchanged_file_sha256": {
+      "instruction.md": "249d64cf61565a515484993844adce0d9c16355c025edc10975d430bc8966286",
+      "solution/solution.patch": "74a41e27b3ab71a72c93981c3417b5e7a3d66208f5ea5e2e1e4b3e0841e2c610",
+      "solution/solve.sh": "2f111d19625d9685d00029c2c3efb7719ee2311c6ab4f0ab0ebcc37f09c35198",
+      "tests/config.json": "ad9199408d809ddda548dfce7878a6229123e19b8a212be89d0c2894f318220d",
+      "tests/grader.py": "47cc9eaadf21e636323c360ec4fa786f0733ec9fd1d21ea5a5717ff9f8c4077c",
+      "tests/test.patch": "c78cbd11e4aff499b92f8feadebf4b1dafc9907ca8393b75685588335369ff9b",
+      "tests/test.sh": "e8521b22031231c0792e0297b3affdf3bba8920a325f7cc7b5c48e26e341b16e"
+    },
+    "validation_report": "arm/validation.json"
+  }
+]

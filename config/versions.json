@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "upstreams": {
+    "deep-swe": {
+      "url": "https://github.com/datacurve-ai/deep-swe.git",
+      "commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea"
+    },
+    "pier": {
+      "url": "https://github.com/datacurve-ai/pier.git",
+      "commit": "b26211ed2bbee6d145f6b8c5b80e39f18b296f08",
+      "patch": "arm/patches/pier-readable-artifacts.patch"
+    }
+  },
+  "python": "3.12.15",
+  "platform": "linux/arm64",
+  "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+  "tools": {
+    "docker_cli": {
+      "version": "27.5.1",
+      "filename": "docker-27.5.1.tgz",
+      "url": "https://download.docker.com/linux/static/stable/aarch64/docker-27.5.1.tgz",
+      "sha256": "e6b53725a73763ab3f988c73f8772eaed429754c1a579db5ff11f21990fd1817"
+    },
+    "compose": {
+      "version": "2.32.4",
+      "filename": "docker-compose-linux-aarch64",
+      "url": "https://github.com/docker/compose/releases/download/v2.32.4/docker-compose-linux-aarch64",
+      "sha256": "0c4591cf3b1ed039adcd803dbbeddf757375fc08c11245b0154135f838495a2f"
+    }
+  }
+}

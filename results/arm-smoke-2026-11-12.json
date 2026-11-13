@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "kind": "environment_oracle_nop_checks_not_model_evaluation",
+  "source_summary_sha256": "fdd3d2d6ba031392ba520923fb96d054c5900859ea134a5a5462a8706e60d724",
+  "base_image": "public.ecr.aws/x8v8d7g8/mars-base@sha256:8d4d973c993776850e6249f909431040f0f0e694162768b1ed1409ba64162cb2",
+  "upstream_commits": {
+    "deep-swe": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+    "pier": "b26211ed2bbee6d145f6b8c5b80e39f18b296f08"
+  },
+  "pier_patch_sha256": "3e7c1519bd730bf78209d5a36efe06cfa9728a200df0dc9955b954f04c0cc97e",
+  "historical_trials": 11,
+  "accepted_trials": 10,
+  "records": [
+    {
+      "task": "datacurve/httpx-multipart-response-parsing",
+      "agent": "nop",
+      "expected_reward": 0,
+      "accepted": true,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 122,
+        "f2p_passed": 0,
+        "p2p_total": 1272,
+        "p2p_passed": 1272,
+        "f2p": 0.0,
+        "p2p": 1.0,
+        "partial": 0.9124820659971306
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/httpx-multipart-response-parsing",
+      "agent": "oracle",
+      "expected_reward": 1,
+      "accepted": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 122,
+        "f2p_passed": 122,
+        "p2p_total": 1272,
+        "p2p_passed": 1272,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/pest-character-class-coalescing",
+      "agent": "nop",
+      "expected_reward": 0,
+      "accepted": true,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 104,
+        "f2p_passed": 0,
+        "p2p_total": 250,
+        "p2p_passed": 250,
+        "f2p": 0.0,
+        "p2p": 1.0,
+        "partial": 0.7062146892655368
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/pest-character-class-coalescing",
+      "agent": "oracle",
+      "expected_reward": 1,
+      "accepted": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 104,
+        "f2p_passed": 104,
+        "p2p_total": 250,
+        "p2p_passed": 250,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/tengo-callable-instance-isolation",
+      "agent": "nop",
+      "expected_reward": 0,
+      "accepted": true,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 23,
+        "f2p_passed": 0,
+        "p2p_total": 122,
+        "p2p_passed": 122,
+        "f2p": 0.0,
+        "p2p": 1.0,
+        "partial": 0.8413793103448276
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/tengo-callable-instance-isolation",
+      "agent": "oracle",
+      "expected_reward": 1,
+      "accepted": false,
+      "rewards": {},
+      "exception_type": "PermissionError"
+    },
+    {
+      "task": "datacurve/tengo-callable-instance-isolation",
+      "agent": "oracle",
+      "expected_reward": 1,
+      "accepted": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 23,
+        "f2p_passed": 23,
+        "p2p_total": 122,
+        "p2p_passed": 122,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/ts-pattern-match-each",
+      "agent": "nop",
+      "expected_reward": 0,
+      "accepted": true,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 85,
+        "f2p_passed": 0,
+        "p2p_total": 6,
+        "p2p_passed": 6,
+        "f2p": 0.0,
+        "p2p": 1.0,
+        "partial": 0.06593406593406594
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/ts-pattern-match-each",
+      "agent": "oracle",
+      "expected_reward": 1,
+      "accepted": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 85,
+        "f2p_passed": 85,
+        "p2p_total": 6,
+        "p2p_passed": 6,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/yjs-map-conflict-detection",
+      "agent": "nop",
+      "expected_reward": 0,
+      "accepted": true,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 9,
+        "f2p_passed": 0,
+        "p2p_total": 231,
+        "p2p_passed": 231,
+        "f2p": 0.0,
+        "p2p": 1.0,
+        "partial": 0.9625
+      },
+      "exception_type": null
+    },
+    {
+      "task": "datacurve/yjs-map-conflict-detection",
+      "agent": "oracle",
+      "expected_reward": 1,
+      "accepted": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 9,
+        "f2p_passed": 9,
+        "p2p_total": 231,
+        "p2p_passed": 231,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exception_type": null
+    }
+  ]
+}
