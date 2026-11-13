@@ -1,0 +1,54 @@
+# Local tools, Python environments, and assistant/account state
+/.runtime/
+/.agents/
+/.aws/
+/.codex/
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/node_modules/
+.DS_Store
+
+# Independent upstream checkouts, restored from config/versions.json
+/deep-swe/
+/pier/
+
+# Rebuilt task copies and raw experiment output (keep locally)
+/arm/tasks/
+/arm/jobs/
+/arm/build-logs/
+/arm/validation.json
+/jobs/
+/logs/
+/outputs/
+
+# Models, datasets, downloaded tools, and image archives
+/models/
+/checkpoints/
+/data/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+*.onnx
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor-local settings
+/.idea/
+/.vscode/
